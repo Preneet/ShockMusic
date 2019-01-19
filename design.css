@@ -1,0 +1,86 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding-top:100px;
+}
+
+
+#banner_content{
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	background-color: rgba(0 ,0 ,0 ,0.6);
+	max-width: 660px;
+}
+a{
+	text-decoration: none;
+	background-color: transparent;
+	color:#ededed;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+
+#banner_image{
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(images/home.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#content{
+    min-height: 600px;
+}
+
+.navbar-brand{
+    font-size:20px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#item_list {
+    padding-top: 50px;
+}
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+#login-panel .panel-footer{
+    font-weight:normal;
+}
+
+.red{
+    color:red;
+}
+
+#settings-container{
+    margin-bottom:10px;
+}
